@@ -1,0 +1,38 @@
+body
+{
+    background-color: rgb(62, 134, 110);
+}
+
+h1
+{
+    font-family: monospace;
+    font-size:  40px;
+    text-align: center;
+}
+
+p
+{
+    font-family: monospace;
+    font-size: 30px;
+}
+
+button
+{
+    border-radius: 30px;
+    border-style: dashed;
+    transition: 0.4s;
+}
+
+button:hover
+{
+    border-style: solid;
+    scale: 104%;
+}
+
+.center 
+{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
